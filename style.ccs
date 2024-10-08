@@ -29,8 +29,21 @@ h1 {
     transition: background-color 0.3s;
 }
 
+/* Posizionamenti specifici */
+#H {
+    grid-column: 1; /* L'idrogeno nella prima colonna */
+}
+
+#He {
+    grid-column: 18; /* L'elio nella 18esima colonna */
+}
+
+#Li {
+    grid-column: 3; /* Litio nella terza colonna */
+}
 .element:hover {
     background-color: #45a049;
+
 }
 
 #info-section {
