@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+    color: #333;
+}
+
+.periodic-table {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr); /* Tavola periodica su 18 colonne */
+    gap: 10px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.element {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.element:hover {
+    background-color: #45a049;
+}
+
+#info-section {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 90%;
+    max-width: 600px;
+    margin: 30px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#info-section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
