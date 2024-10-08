@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tavola Periodica Interattiva</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Tavola Periodica Interattiva</h1>
+    <div class="periodic-table">
+        <!-- Puoi aggiungere gli elementi che ti interessano qui -->
+        <div class="element" onclick="showInfo('H')">H</div>
+        <div class="element" onclick="showInfo('He')">He</div>
+        <div class="element" onclick="showInfo('Li')">Li</div>
+        <!-- Altri elementi... -->
+    </div>
+    
+    <div id="info-section">
+        <h2>Informazioni sull'elemento</h2>
+        <p>Clicca su un elemento per vedere le informazioni.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
